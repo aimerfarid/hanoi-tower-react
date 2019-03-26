@@ -1,6 +1,21 @@
 body {
   font-size: 44px;
+  margin: auto;
   /* font-family: "Comic Sans MS"; */
+}
+
+.navbar {
+  background: linear-gradient(to right, rgba(150, 111, 51, 0.4), rgba(150, 111, 51, 0.2)),
+    repeating-linear-gradient(to right, #eec487, #eec487 3vmin, #f3cf9a 3vmin, #f3cf9a 6vmin, #f8d8a2 6vmin, #f8d8a2 9vmin, #f1ca88 9vmin, #f1ca88 12vmin, #f4d09e 12vmin, #f4d09e 15vmin, #faddb0 15vmin, #faddb0 18vmin, #eec88a 18vmin, #eec88a 21vmin);
+}
+
+.navbar-brand {
+  font-family: cursive;
+  font-size: 1em;
+}
+
+.alert {
+  font-size: 0.5em;
 }
 
 .tower {
@@ -11,8 +26,9 @@ body {
 }
 
 .tower-pillar {
-  background-color: gray;
-  border-color: black;
+  background: linear-gradient(to right, #d7b889, #b27315, #966f33);
+  /* background-color: gray; */
+  /* border-color: black; */
   border-style: solid;
   border-width: 1px 1px 0 1px;
   display: inline-block;
@@ -21,7 +37,9 @@ body {
 }
 
 .tower-base {
-  background-color: gray;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.3), transparent),
+    linear-gradient(#b27315, #966f33 13%, #faddb0 14.5%, #faddb0 27.5%, #966f33 29%, #966f33 42%, #faddb0 43.5%, #d7b889 56.5%, #966f33 58%, #966f33 71%, #d7b889 72.5%, #d7b889 85.5%, #966f33 87%, #b27315);
+  /* background-color: gray; */
   border: 1px solid black;
   height: 20px;
   vertical-align: bottom;
@@ -47,7 +65,9 @@ body {
   font-size: 13px;
   height: 20px;
   vertical-align: center;
+  background: linear-gradient;
   background-color: cyan;
   border: 1px solid black;
+  border-radius: 1vmin;
   margin-bottom: -1px;
 }

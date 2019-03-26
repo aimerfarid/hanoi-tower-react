@@ -1,3 +1,32 @@
+# Hanoi Tower - EFII
+
+My first React Application project by building a **Hanoi Tower** inspired by many other sources:
+- React References:
+  - [Hanoi Tower 1](https://www.kirupa.com/html5/tower_of_hanoi_puzzle.htm)
+  - [Hanoi Tower 2](https://kuzzmi.com/blog/towers-of-hanoi/)
+  - [Hanoi Tower 3](https://github.com/dprgarner/react-tower-of-hanoi)
+  - [Hanoi Tower 4](https://medium.com/@justintulk/best-practices-for-resetting-an-es6-react-components-state-81c0c86df98d)
+  - [Hanoi Tower 5](https://www.khanacademy.org/computing/computer-science/algorithms/towers-of-hanoi/a/towers-of-hanoi)
+- CSS References:
+  - [CSS Inspired 1](https://codepen.io/finnhvman/pen/gzmMaa)
+  - [CSS Inspired 2](https://codepen.io/eliortabeka/pen/yOrrxG)
+
+I setup the game with 3 discs and it is easily changeable by changing the discNum value in the 'App.js' file in src directory.
+```
+state = {
+  towerNum: 3,
+  discNum: 3,
+  discMoves: 0
+};
+```
+
+If the initial with all the discs (7 Discs) the layout will look as below:
+![Full Layout](public/images/layout-7-discs.png)
+
+Last but not least.
+### **__Enjoy!__**
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
